@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css?family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#title {
+    font-size: 30px;
+    background-color: black;
+    font-family: 'Italiana', serif;
+    padding-bottom: 150px;
+    height: 100px;
+}
+
+h1 {
+    right: 500px;
+}
+
+.tOne, .tTwo, .tThree {
+    position: absolute;
+    /* text-align: center; */
+    text-transform: uppercase;
+}
+
+.tOne {
+    color: brown;
+    bottom: 650px;
+}
+
+.tTwo {
+    color: blueviolet;
+    top: 70px;
+}
+
+.tThree {
+    color: blueviolet;
+}
+
+.container{
+    text-align: center;
+    padding: 75px;
+}
+
+form{
+  margin: 0 auto;
+  height: 300px;
+  width: 400px;
+  border: 2px solid rgb(20, 20, 20);
+  border-radius: 1em;
+  box-shadow: 3px 0px 10px 0px black;
+}
+
+li {
+    list-style-type: none;
+    font-family: 'Prata', serif;
+    /* text-align: center; */
+    font-weight: bold;
+    bottom: 500px;
+}
+.username {
+    width: 200px;
+    margin-top: 50px;
+    height: 30px;
+}
+
+.password {
+    width: 200px;
+    margin-top: 30px;
+    height: 30px;
+} 
+
+input {
+    margin-top: 60px;
+    text-align: center;
+    font-family: 'Prata', serif;
+    font-weight: bold; 
+    width: 20%;
+    padding: 5px; 
+}
+
