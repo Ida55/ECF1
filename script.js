@@ -23,4 +23,3 @@ var usPassCombo = [
      }
  }
 
-// onsubmit="return validateForm()"
